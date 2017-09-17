@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress --colors --watch",
+    "test": "babel-node spec/run.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "jasmine": "^2.7.0",
+    "jasmine-core": "^2.7.0",
+    "lodash": "^4.17.4",
+    "webpack": "^3.6.0",
+    "css-loader": "^0.28.7",
+    "style-loader": "^0.18.2"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}

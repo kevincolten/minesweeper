@@ -1,0 +1,29 @@
+.row {
+  display: flex;
+}
+
+.row > div {
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+  background-color: lightgray;
+}
+
+.row > div.cleared {
+  background: lightgreen;
+}
+
+.row > div.mine {
+  background: lightsalmon;
+}
+
+.row > div.flagged {
+  background: lightcyan;
+}
+
+.flag {
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+  background-color: lightcyan;
+}
